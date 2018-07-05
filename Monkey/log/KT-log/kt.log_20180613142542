@@ -1,0 +1,3 @@
+[2018-06-07 20:19:59,128] (main)(Configuration.java): ConfigDescriptor [sleep=5, logPath=/data/aee_exp/,/data/core/,data/aee_exp,data/vendor/mtklog/aee_exp,/data/tombstones/,/data/mdlog/bootupLog/,/mnt/sdcard0/mtklog/,/mnt/sdcard/mtklog/,/mnt/sdcard/sdcard2/mtklog/,/mnt/sdcard2/mtklog/,/mnt/sdcard1/mtklog/,/mnt/m_external_sd/mtklog,, pcStoragePath=C:\Users\moon\Desktop\monkey\log, pull_modem_log=true]
+[2018-06-07 20:19:59,130] (main)(Main.java): LoNg version: v2.1710.5
+[2018-06-07 20:19:59,134] (main)(AdbAdapter.java): shell cmd:  C:\Users\moon\Desktop\monkey\log\adb devices
