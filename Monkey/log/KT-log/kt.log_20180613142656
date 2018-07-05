@@ -1,9 +1,0 @@
-[2018-06-13 14:25:42,655] (main)(Configuration.java): ConfigDescriptor [sleep=5, logPath=/data/aee_exp/,/data/core/,data/aee_exp,data/vendor/mtklog/aee_exp,/data/tombstones/,/data/mdlog/bootupLog/,/mnt/sdcard0/mtklog/,/mnt/sdcard/mtklog/,/mnt/sdcard2/mtklog/,/mnt/sdcard/mtklog/taglog/,/mnt/sdcard1/mtklog/,/mnt/m_external_sd/mtklog,, pcStoragePath=C:\Users\moon\Desktop\test\monkey\log, pull_modem_log=true]
-[2018-06-13 14:25:42,657] (main)(Main.java): LoNg version: v2.1710.5
-[2018-06-13 14:25:42,661] (main)(AdbAdapter.java): shell cmd:  C:\Users\moon\Desktop\test\monkey\log\adb devices
-[2018-06-13 14:25:42,843] (main)(AdbOP.java): device SN: 564444444444444
-[2018-06-13 14:25:42,846] (thread_564444444444444)(AdbAdapter.java): shell cmd:  C:\Users\moon\Desktop\test\monkey\log\adb -s 564444444444444 shell am broadcast -a com.mediatek.mtklogger.ADB_CMD -e cmd_name switch_taglog --ei cmd_target 1 -f 0x04000000
-[2018-06-13 14:25:43,130] (thread_564444444444444)(AdbAdapter.java): shell cmd:  C:\Users\moon\Desktop\test\monkey\log\adb -s 564444444444444 shell ls -R -l /data/aee_exp/ /data/core/ data/vendor/mtklog/aee_exp/ /data/tombstones/ /data/mdlog/bootupLog/ /mnt/sdcard0/mtklog/ /mnt/m_external_sd/mtklog/ /mnt/sdcard/mtklog/ /mnt/sdcard2/mtklog/ data/aee_exp/ /mnt/sdcard/mtklog/taglog/ /mnt/sdcard1/mtklog/
-[2018-06-13 14:25:43,426] (thread_564444444444444)(AdbAdapter.java): shell cmd:  C:\Users\moon\Desktop\test\monkey\log\adb -s 564444444444444 shell id
-[2018-06-13 14:25:43,638] (thread_564444444444444)(ProcessRun.java): found .dbg file: /mnt/sdcard/mtklog/taglog/db.fatal.01.SWT.dbg
-[2018-06-13 14:25:43,639] (thread_564444444444444)(AdbOP.java): restart mtklogger SN: 564444444444444
